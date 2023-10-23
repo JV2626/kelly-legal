@@ -1,0 +1,136 @@
+/* Estilo para o corpo do site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* Estilo para o cabeçalho (header) */
+header {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo para a barra de navegação (nav) */
+nav {
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+/* Estilo para o conteúdo principal (main) */
+main {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+/* Estilo para os títulos das páginas (h1) */
+h1 {
+    text-align: center;
+}
+
+/* Estilo para a lista de motivos e mensagens */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo para as mensagens motivadoras */
+ul li:first-child {
+    background-color: #fdd133;
+    font-weight: bold;
+}
+
+ul li:nth-child(2n) {
+    background-color: #31a8fd;
+    font
+}
+
+ul li:last-child {
+    background-color: #ee3c3c;
+    color: white;
+}
+/* Estilo para o contêiner da imagem */
+#image-container {
+    text-align: center;
+    width: 200px; 
+     display: block;
+    margin: 0 auto;
+}
+
+/* Estilo para a imagem */
+#image-container img {
+    border-radius: 50%;
+    border: 5px solid #000000; /* Cor da borda */
+    width: 200px; /* Largura da imagem */
+    height: 200px; /* Altura da imagem */
+    display: block;
+    margin: 0 auto;
+}
+/* Estilo para o link do LinkedIn */
+#linkedin-link a {
+    color: #000000; /* Cor do link do LinkedIn */
+    text-decoration: none;
+    font-weight: bold;
+    margin: auto;
+    display: block;
+}
+/* Estilos para os motivos sobre a professora */
+ul.motivos li {
+    font-size: 16px; /* Tamanho da fonte */
+    font-family: 'Arial', sans-serif; /* Fonte da letra */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+#p1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+#p2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
